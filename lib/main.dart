@@ -36,6 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
         polylineId: PolylineId(
           'global',
         ),
+        width: 5,
         patterns: [
           PatternItem.dot,
           PatternItem.gap(10), // without gap it's doesn't crash...
